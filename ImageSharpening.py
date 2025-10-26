@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Load the image
-img = cv2.imread('input_image.jpg')
+img = cv2.imread('img.jpg')
 
 # Define a sharpening kernel
 kernel = np.array([[0, -1, 0],
