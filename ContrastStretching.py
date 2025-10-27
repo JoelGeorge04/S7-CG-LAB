@@ -17,5 +17,9 @@ cv2.imshow('Contrast Stretched', stretched)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 
+# Horizontally both imges display
+# combined = cv2.hconcat([img,stretched])
+# cv2.imshow("Original (Left) vs Stretched (Right)", combined)
+
 # Save the result
 cv2.imwrite('stretched_image.jpg', stretched)
