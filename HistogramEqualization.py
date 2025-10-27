@@ -20,4 +20,5 @@ plt.subplot(2, 2, 4)
 plt.hist(equalized.ravel(), 256, [0, 256])
 plt.title('Equalized Histogram')
 
+plt.tight_layout()
 plt.show()
