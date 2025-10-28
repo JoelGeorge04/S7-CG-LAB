@@ -61,8 +61,8 @@ else:
 P1_new = T @ P1
 P2_new = T @ P2
 
-plt.plot([x1, x2], [y1, y2], 'b-o')  
-plt.plot([P1_new[0], P2_new[0]], [P1_new[1], P2_new[1]], 'r--o')  
+plt.plot([x1, x2], [y1, y2], 'b')  
+plt.plot([P1_new[0], P2_new[0]], [P1_new[1], P2_new[1]], 'r')  
 plt.title(title)
 plt.axis('equal')  
 plt.show()
