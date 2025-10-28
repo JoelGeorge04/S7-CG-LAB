@@ -20,8 +20,8 @@ if choice == 1:
 elif choice == 2:
     # s=c⋅log(1+r)
     c = 255 / np.log(1 + np.max(img))
-    transformed = c * np.log(1 + img)
-    transformed = np.array(transformed, dtype=np.uint8)
+    log = c * np.log(1 + img)
+    transformed = np.array(log, dtype=np.uint8)
     title = "Log Transformation"
 
 elif choice == 3:
